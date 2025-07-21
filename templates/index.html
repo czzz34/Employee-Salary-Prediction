@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Employee Salary Prediction</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Employee Salary Prediction</h1>
+
+    <form method="POST" class="grid-form">
+      {% for label, key in [
+        ('Job Title', 'job_title'),
+        ('Experience Level', 'experience_level'),
+        ('Employment Type', 'employment_type'),
+        ('Company Location', 'company_location'),
+        ('Company Size', 'company_size'),
+        ('Remote Ratio', 'remote_ratio'),
+        ('Education Required', 'education_required'),
+        ('Years of Experience', 'years_experience'),
+        ('Industry', 'industry')
+      ] %}
+      <div class="form-group">
+        <label for="{{ key }}">{{ label }}</label>
+        <select name="{{ key }}" id="{{ key }}" required>
+          <option value="" disabled selected>Choose…</option>
+          {% for val in options[key] %}
+            <option value="{{ val }}">{{ val }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      {% endfor %}
+
+      <div class="form-group full-width">
+        <button type="submit">Predict</button>
+      </div>
+    </form>
+
+    {% if prediction is not none %}
+    <div class="result">
+       <strong>Predicted Salary Range:</strong> {{ prediction }}
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>
