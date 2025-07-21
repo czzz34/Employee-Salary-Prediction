@@ -1,6 +1,6 @@
 # 🧠 Employee Salary Prediction
 
-This project was developed as part of the **Virtual Internship Program** by Edunet Foundation in collaboration with AICTE and industry partners. The objective is to build a machine learning model that predicts employee salary categories based on job attributes like title, experience, company size, location, and more.
+This project was developed as part of my **Virtual Internship Program** by Edunet Foundation in collaboration with AICTE and industry partners. The objective is to build a machine learning model that predicts employee salary categories based on job attributes like title, experience, company size, location, and more.
 
 ---
 
