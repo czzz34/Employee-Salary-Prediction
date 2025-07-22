@@ -35,6 +35,8 @@ To predict the salary category of an employee (e.g., Low, Mid, High) using machi
   - `company_location` 
   - `company_size`
   - `remote_ratio`
+  -  `industry`
+  - ` education_required`
 
 Preprocessing included:
 - Dropping irrelevant columns (`job_id`, `salary_currency`, etc.)
@@ -48,9 +50,9 @@ Preprocessing included:
 ## 📈 Model Performance
 
 - **Algorithm Used**: Gradient Boosting Classifier
-- **Accuracy**: ~84% (on test data with 3 salary categories)
+- **Accuracy**: ~84% (on test data with 4 salary categories)
 - **Feature Importance** analyzed and tuned
-- Dataset split into Train/Test (80/20)
+- Dataset split into Train/Test (75/25)
 
 ---
 
