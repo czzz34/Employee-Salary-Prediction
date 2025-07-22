@@ -58,16 +58,6 @@ Preprocessing included:
 
 The project is integrated with a **Flask web app** where users can input job details and get salary category predictions in real-time.
 
-### Screenshots
-1. Model Prediction Interface  
-2. Code Execution Output  
-3. Dataset Preview  
-4. Feature Importance Graph  
-5. Flask Form UI  
-
-> *(Add actual screenshots in a folder or embed in the README if hosted)*
-
----
 
 ## 🚀 How to Run
 
