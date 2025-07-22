@@ -63,5 +63,5 @@ The project is integrated with a **Flask web app** where users can input job det
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/employee-salary-predictor
-   cd employee-salary-predictor
+   git clone https://github.com/czzz34/Employee-Salary-Prediction.git
+   cd Employee-Salary-Prediction
