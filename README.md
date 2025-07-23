@@ -36,7 +36,7 @@ To predict the salary category of an employee (e.g., Low, Mid, High) using machi
   - `company_size`
   - `remote_ratio`
   -  `industry`
-  - ` education_required`
+  - `education_required`
 
 Preprocessing included:
 - Dropping irrelevant columns (`job_id`, `salary_currency`, etc.)
