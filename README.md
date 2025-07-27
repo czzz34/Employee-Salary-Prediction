@@ -67,3 +67,4 @@ The project is integrated with a **Flask web app** where users can input job det
    ```bash
    git clone https://github.com/czzz34/Employee-Salary-Prediction.git
    cd Employee-Salary-Prediction
+   start "" http://127.0.0.1:5000/ & python app.py
