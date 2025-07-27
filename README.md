@@ -50,7 +50,7 @@ Preprocessing included:
 ## 📈 Model Performance
 
 - **Algorithm Used**: Gradient Boosting Classifier
-- **Accuracy**: ~84% (on test data with 4 salary categories)
+- **Accuracy**: ~61% 
 - **Feature Importance** analyzed and tuned
 - Dataset split into Train/Test (75/25)
 
